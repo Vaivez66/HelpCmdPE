@@ -1,0 +1,16 @@
+
+# The default page that will execute if player doesn't declare the page
+default.page: 1
+# The message that will send if the page is not found
+# Use {player} to mention their name
+page.not.found: '{RED}That page is not exist, {player}'
+# You decide how many page you want
+# You can use {player} to mention their name
+page:
+  1:
+    - '{GREEN}---Hello, {player}---'
+    - '{YELLOW}+ This is page 1'
+  2:
+    - '{RED}This is page 2'
+  3:
+    - '{BLUE}This is page 3'
