@@ -20,7 +20,7 @@ class HelpCmdListener implements Listener{
     public function onCmd(PlayerCommandPreprocessEvent $event){
         $p = $event->getPlayer();
         $args = explode(' ', $event->getMessage());
-        if(strtolower($args[0]) == ('/help' || '/?')){
+        if(strtolower($args[0]) == '/help' || strtoupper($args[0]) == '/?'){
             if($p->hasPermission('help.cmd.pe')) {
                 $event->setCancelled(true);
                 if (isset($args[1])) {
