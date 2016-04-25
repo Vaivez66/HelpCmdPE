@@ -3,7 +3,7 @@
 default.page: 1
 # The message that will send if the page is not found
 # Use {player} to mention their name
-page.not.found: '{RED}That page is not exist, {player}'
+page.not.found: '{RED}That page does not exist, {player}'
 # You decide how many page you want
 # You can use {player} to mention their name
 page:
